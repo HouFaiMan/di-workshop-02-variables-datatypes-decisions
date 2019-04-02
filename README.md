@@ -56,30 +56,30 @@ happens.
 
 | Line                | Expected Result | Actual Result | Were you right? Why? |
 | ------------------- | --------------- | ------------- | -------------------- |
-| `2 + 2`             |                 |               |                      |
-| `5 - 3`             |                 |               |                      |
-| `3 * 6`             |                 |               |                      |
-| `10 / 2`            |                 |               |                      |
-| `5 / 2`             |                 |               |                      |
-| `5.0 / 2`           |                 |               |                      |
-| `“hello” + “world”` |                 |               |                      |
-| `“Hello” - “world”` |                 |               |                      |
-| `3 + “3”`           |                 |               |                      |
-| `typeof “hello”`    |                 |               |                      |
-| `typeof 13`         |                 |               |                      |
-| `typeof true`       |                 |               |                      |
-| `typeof 3 + 5`      |                 |               |                      |
-| `typeof (3 + 5)`    |                 |               |                      |
-| `typeof (3 + “3”)`  |                 |               |                      |
-| `3 == 3`            |                 |               |                      |
-| `3 == 2`            |                 |               |                      |
-| `typeof (3 == 3)`   |                 |               |                      |
-| `3 != 3`            |                 |               |                      |
-| `3 != 2`            |                 |               |                      |
-| `3 == 1 + 2`        |                 |               |                      |
-| `3 == 2 + 2`        |                 |               |                      |
-| `3 < 2 + 2`         |                 |               |                      |
-| `3 > 2 + 2`         |                 |               |                      |
+| `2 + 2`             |        4        |       2       |         Yes          |
+| `5 - 3`             |        2        |       2       |         Yes          |
+| `3 * 6`             |       18        |      18       |         Yes          |
+| `10 / 2`            |        5        |       5       |         Yes          |
+| `5 / 2`             |       2.5       |      2.5      |         Yes          |
+| `5.0 / 2`           |       2.5       |      2.5      |         Yes          |
+| `“hello” + “world”` |   Hello World   |  Hello World  |         Yes          |
+| `“Hello” - “world”` |       NaN       |      NaN      |         Yes          |
+| `3 + “3”`           |      "33"       |     "33"      |         Yes          |
+| `typeof “hello”`    |      "string"   |     "string"  |         Yes          |
+| `typeof 13`         |      "number"   |     "number"  |         Yes          |
+| `typeof true`       |      "boolean"  |     "boolean" |         Yes          |
+| `typeof 3 + 5`      |      "number5"  |     "number5" |         Yes          |
+| `typeof (3 + 5)`    |      "number"   |     "number"  |         Yes          |
+| `typeof (3 + “3”)`  |      "string"   |     "string"  |         Yes          |
+| `3 == 3`            |      true       |     true      |         Yes          |
+| `3 == 2`            |      false      |     false     |         Yes          |
+| `typeof (3 == 3)`   |      "boolean"  |     "boolean" |         Yes          |
+| `3 != 3`            |      false      |     false     |         Yes          |
+| `3 != 2`            |      true       |     true      |         Yes          |
+| `3 == 1 + 2`        |      true       |     true      |         Yes          |
+| `3 == 2 + 2`        |      false      |     false     |         Yes          |
+| `3 < 2 + 2`         |      true       |     true      |         Yes          |
+| `3 > 2 + 2`         |      false      |     false     |         false        |
 
 ## Task 2
 
